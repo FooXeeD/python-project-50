@@ -1,5 +1,4 @@
 def build_diff(data1: dict, data2: dict) -> dict:
-    """Find the different between two files."""
     result_diff = {}
     all_keys = sorted(data1.keys() | data2.keys())
     for key in all_keys:
