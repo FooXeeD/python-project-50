@@ -9,8 +9,8 @@ def get_format(filepath: str) -> str:
     elif extension == '.json':
         return 'json'
     raise TypeError(
-        'Проверьте расширение файлов.\nТолько расширения файлов '
-        'yaml,yml или json поддерживаются.'
+        'Проверьте расширение файлов.\nПоддерживаются только следующие '
+        'расширения: yaml,yml или json.'
     )
 
 
