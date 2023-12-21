@@ -3,6 +3,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/FooXeeD/python-project-50/workflows/hexlet-check/badge.svg)](https://github.com/FooXeeD/python-project-50/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/774f84b0806dd382c24d/maintainability)](https://codeclimate.com/github/FooXeeD/python-project-50/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/774f84b0806dd382c24d/test_coverage)](https://codeclimate.com/github/FooXeeD/python-project-50/test_coverage)
 ## Описание
 
 Вычислитель отличий – программа, определяющая разницу между двумя структурами данных.

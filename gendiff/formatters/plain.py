@@ -40,7 +40,6 @@ def get_plain_format(diff_file, initial_path: str = ''):
 
 
 def build_path(new_point: str, previous_path: str = '') -> str:
-    """Build string representation of the path."""
     if previous_path:
         return '.'.join([previous_path, new_point])
     return new_point

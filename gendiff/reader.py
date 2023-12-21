@@ -1,4 +1,3 @@
-"""Get format of file."""
 from os.path import splitext
 
 
