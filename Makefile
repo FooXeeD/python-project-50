@@ -1,10 +1,13 @@
 install:
 	poetry install
 
+test:
+	poetry run pytest -v
+
 test-coverage:
 	poetry run pytest --cov=gendiff --cov-report xml tests/
 
-build:
+build: check
 	poetry build
 
 check: selfcheck test lint
@@ -26,3 +29,5 @@ gendiff:
 
 rp:
 	pip install --user --force-reinstall dist/*.whl
+
+.PHONY: install test lint selfcheck check build
