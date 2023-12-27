@@ -2,3 +2,5 @@
 dist/
 pycache/
 .idea/
+gendiff/__pycache__/
+gendiff/scripts/__pycache__/
