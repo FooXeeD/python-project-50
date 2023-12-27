@@ -2,13 +2,13 @@ import json
 import yaml
 
 
-def parse(data, format_: str) -> str:
-    if format_ == 'json':
+def parse(data, extension: str) -> str:
+    if extension == 'json':
         return json.loads(data)
-    if format_ == 'yaml':
+    if extension == 'yaml':
         return yaml.safe_load(data)
     raise ValueError(
-        'Расширение файла (.{format_}) не поддерживается.\n'
-        'Выбранные файлы должны иметь '
-        'расширение: json, yaml or yml.'.format(format_=format_)
+        """f'The file extension (.{extension}) is not supported.\n
+        Make sure that the selected files have
+        the extension: json, yaml or yml.'"""
     )
